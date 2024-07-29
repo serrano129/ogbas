@@ -239,7 +239,7 @@ export default function Main() {
 
                 <button
                   type="submit"
-                  className="bg-yellow-400 h-10 w-20 rounded-md hover:saturate-50 font-semibold mb-3 text-center"
+                  className="bg-yellow-400 h-10 w-20 rounded-md hover:saturate-50 font-semibold mb-3 text-center text-black"
                 >
                   {isLoading ? (
                     <svg
@@ -384,7 +384,7 @@ export default function Main() {
 
             <button
               type="submit"
-              className="bg-yellow-300 w-full h-8 rounded-md text-center"
+              className="bg-yellow-300 w-full h-8 rounded-md text-center text-black"
             >
               {isLoading ? (
                 <svg
