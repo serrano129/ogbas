@@ -1,15 +1,16 @@
+"use client";
 import Image from "next/image";
-import webde from "../public/web.svg";
-import webmo from "../public/web-de.jpeg";
+import webde from "../../public/web.svg";
+import webmo from "../../public/web-de.jpeg";
 
-import screenshot1 from "../public/Lcreenshot1.png";
-import screenshot2 from "../public/Screenshot2.png";
-import screenshot3 from "../public/Screenshot3.png";
-import screenshot4 from "../public/Screenshot4.png";
-import screenshot5 from "../public/Screenshot5.png";
-import screenshot6 from "../public/Screenshot6.png";
-import screenshot7 from "../public/Screenshot7.png";
-import footer from "../public/footer.png";
+import screenshot1 from "../../public/Lcreenshot1.png";
+import screenshot2 from "../../public/Screenshot2.png";
+import screenshot3 from "../../public/Screenshot3.png";
+import screenshot4 from "../../public/Screenshot4.png";
+import screenshot5 from "../../public/Screenshot5.png";
+import screenshot6 from "../../public/Screenshot6.png";
+import screenshot7 from "../../public/Screenshot7.png";
+import footer from "../../public/footer.png";
 import Advert from "./advert";
 import WebFooter from "./webfooter";
 import { useRef, useState } from "react";
@@ -98,7 +99,7 @@ export default function Main() {
               <input
                 type="text"
                 placeholder="Suchen mit WEB.DE"
-                className="w-full placeholder:text-lg h-10 saturate-100 hover:saturate-100 p-3 border rounded-l-md border-gray-300 focus:border-sky-500 hover:border-sky-500 trasition duration-300 ease-linear outline-none"
+                className="w-full text-black placeholder:text-lg h-10 saturate-100 hover:saturate-100 p-3 border rounded-l-md border-gray-300 focus:border-sky-500 hover:border-sky-500 trasition duration-300 ease-linear outline-none"
               />
               <div className="h-10 w-10 rounded-r-md bg-yellow-400 flex justify-center items-center">
                 <svg
@@ -192,7 +193,7 @@ export default function Main() {
                     value={credentials.email}
                     onChange={(e) => handleChange(e)}
                     placeholder="E-Mail-Addresse"
-                    className="h-10 border-gray-300 placeholder:text-gray-800 p-2 rounded-md border focus:border-sky-500 hover:border-sky-500 placeholder:hover:text-sky-500 trasition duration-300 ease-linear outline-none"
+                    className="h-10 text-black border-gray-300 placeholder:text-gray-800 p-2 rounded-md border focus:border-sky-500 hover:border-sky-500 placeholder:hover:text-sky-500 trasition duration-300 ease-linear outline-none"
                     required
                   />
                   <label htmlFor="email" className="text-xs text-gray-500">
@@ -208,7 +209,7 @@ export default function Main() {
                     ref={passwordInputWeb}
                     name="passwort"
                     placeholder="Passwort"
-                    className="h-10 border-gray-300 placeholder:text-gray-800 p-2 rounded-md border focus:border-sky-500 placeholder:hover:text-sky-500 hover:border-sky-500 trasition duration-300 ease-linear outline-none"
+                    className="h-10  border-gray-300 placeholder:text-gray-800 p-2 rounded-md border focus:border-sky-500 placeholder:hover:text-sky-500 hover:border-sky-500 trasition duration-300 ease-linear outline-none text-black"
                     required
                   />
                   <svg
@@ -317,7 +318,7 @@ export default function Main() {
                 name="email"
                 value={credentials.email}
                 onChange={(e) => handleChange(e)}
-                className="h-10 border rounded-md outline-none p-2"
+                className="h-10 text-black border rounded-md outline-none p-2"
                 required
               />
             </div>
@@ -332,7 +333,7 @@ export default function Main() {
                 value={credentials.passwort}
                 onChange={(e) => handleChange(e)}
                 ref={passwordInput}
-                className="h-10 border rounded-md outline-none p-2"
+                className="h-10 border rounded-md outline-none p-2 text-black"
                 required
               />
 
