@@ -88,7 +88,7 @@ export default function Main() {
           <div className="w-full h-1 bg-yellow-400"></div>
           <div className="flex items-center justify-between">
             <Image
-              src={webde}
+              src="/web.svg"
               alt="webde"
               height={40}
               width={40}
@@ -164,7 +164,7 @@ export default function Main() {
 
           <div className="w-full px-2 mt-7 mb-6 cursor-pointer">
             <Image
-              src={screenshot1}
+              src="/Lcreenshot1.png"
               alt="screenshot1"
               height={1200}
               width={1200}
@@ -249,14 +249,14 @@ export default function Main() {
             </div>
           </div>
 
-          <Advert src={screenshot2} />
-          <Advert src={screenshot3} />
-          <Advert src={screenshot4} />
-          <Advert src={screenshot5} />
+          <Advert src="/Screenshot2.png" />
+          <Advert src="/Screenshot3.png" />
+          <Advert src="/Screenshot4.png" />
+          <Advert src="/Screenshot5.png" />
 
-          <WebFooter src={screenshot6} />
-          <WebFooter src={screenshot7} />
-          <WebFooter src={footer} />
+          <WebFooter src="/Screenshot6.png" />
+          <WebFooter src="/Screenshot7.png" />
+          <WebFooter src="/footer.png" />
         </div>
         <div className="">
           <img
@@ -275,7 +275,7 @@ export default function Main() {
 
         <div className="border-b flex items-center">
           <Image
-            src={webde}
+            src="/web.svg"
             alt="webde"
             height={40}
             width={40}
@@ -289,7 +289,7 @@ export default function Main() {
 
         <div className="flex flex-col items-center">
           <Image
-            src={webde}
+            src="/web.svg"
             alt="webde"
             height={50}
             width={50}
@@ -372,7 +372,7 @@ export default function Main() {
           <h1 className="text-sky-500 mt-5">Jetzt kostenlos registrieren!</h1>
 
           <Image
-            src={webmo}
+            src="/web-de.jpeg"
             alt="web-de"
             height={100}
             width={500}
